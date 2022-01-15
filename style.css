@@ -15,7 +15,6 @@ body {
 
 .section {
     display: flex;
-    /* align-items: center; */
     justify-content: center;
 }
 
@@ -569,7 +568,6 @@ p {
     }
 
     .icon a {
-        /* width: 55px; */
         padding: 15px;
         margin: 10px;
         font-size: 15px;
@@ -608,8 +606,6 @@ p {
 
     .banner-image img {
         width: 60%;
-        /* margin: 0 25px; */
-        /* margin-left: 0; */
     }
 
     .banner-image {
