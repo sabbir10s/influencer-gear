@@ -7,5 +7,124 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 
-/*==========Variables==========*/
+.section {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
 
+.container {
+    width: 1080px;
+    margin-top: 10px;
+}
+
+/*==========Variables==========*/
+:root {
+    --button-color: #E02C6D;
+    --footer-color: #0A0826;
+    --dark-text: #18191F;
+    --gray-text: #3A3A3A;
+    --light-text: #787885;
+    --white-text: #FFFFFF;
+    --star--color: #FB8200;
+}
+
+.nav-bar {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.nav-element {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-title h2 {
+    font-weight: 600;
+    color: var(--gray-text);
+}
+
+.nav-element a {
+    text-decoration: none;
+    color: var(--gray-text);
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 30px;
+}
+
+/* ======== Banner Area ======= */
+.banner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-image: url(images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-position-x: 570px;
+    height: 500px;
+}
+
+.banner-image img {
+    width: 90%;
+    margin-left: 30px;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 51px;
+    color: var(--gray-text);
+    margin-bottom: 16px;
+}
+
+.banner-content {
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--gray-text);
+}
+
+.banner-button a {
+    text-decoration: none;
+    color: var(--white-text);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.arrow {
+    color: white;
+    position: relative;
+    top: 3px;
+    margin-left: 3px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.banner-button {
+
+    height: 44px;
+    width: 196px;
+    background-color: var(--button-color);
+    border-radius: 41px;
+    margin-top: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+
+.banner-button::after {
+    content: '';
+    width: 100%;
+    height: 44px;
+    border-radius: 41px;
+    background-color: var(--dark-text);
+    position: absolute;
+    z-index: -1;
+    transition: transform 500ms ease-in;
+    transform: scaleX(0);
+    transform-origin: right;
+}
+
+.banner-button:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+}
