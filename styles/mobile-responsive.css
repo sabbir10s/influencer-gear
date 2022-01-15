@@ -1,15 +1,5 @@
 @media screen and (max-width:767px) {
-
-    .section {
-        display: flex;
-        justify-content: center;
-    }
-
-    .container {
-        width: 100%;
-        margin-top: 10px;
-    }
-
+    
     /* ==============navbar section ========== */
     .nav-bar {
         display: flex;
@@ -127,5 +117,4 @@
         font-size: 15px;
         border-radius: 60px;
     }
-}
 }
