@@ -26,7 +26,7 @@ body {
 
 /*==========Variables==========*/
 :root {
-    --button-color: #E02C6D;
+    --button-color: #22CB5C;
     --footer-color: #0A0826;
     --dark-text: #18191F;
     --gray-text: #3A3A3A;
@@ -143,6 +143,12 @@ body {
 }
 
 /* ========Products Collection===== */
+.all-products {
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+}
+
 .products-collection h2 {
     text-align: center;
     font-size: 28px;
@@ -153,15 +159,23 @@ body {
 .products {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
 }
 
 .product {
     width: 330px;
     padding: 15px;
-    margin-right: 30px;
-    margin-top: 30px;
+    /* margin-right: 30px; */
+    /* margin-top: 30px; */
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
 }
+
+/* #product-3,
+#product-6,
+#product-9 {
+    margin-right: 0;
+} */
 
 .products img {
     width: 100%;
@@ -217,14 +231,60 @@ body {
     color: var(--button-color);
 }
 
+/* =======subscribe section ======== */
+.subscribe {
+    text-align: center;
+    background-color: var(--button-color);
+    color: white;
+    padding: 50px;
+}
+
+.subscribe h2 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+button,
+input[type=email] {
+    font-size: 20px;
+    color: var(--white-text);
+    padding: 12px 30px;
+    border: 2px solid var(--white-text);
+    background-color: var(--button-color);
+    margin-left: 10px;
+    margin-top: 20px;
+    transition: 300ms ease-in;
+
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: var(--button-color);
+}
+
+input[type=email] {
+    background-color: white;
+    margin-left: 0;
+}
+
 /* =======Footer Section=========== */
 
 .footer {
-    background-color: var(--footer-color);
+    background-color: var(--gray-text);
     color: white;
     text-align: center;
-    padding: 40px;
+    padding: 30px;
+    margin-top: 10px;
 
+}
+
+.footer h2,
+p {
+    margin: 10px;
 }
 
 .icon a {
