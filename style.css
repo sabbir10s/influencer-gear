@@ -26,8 +26,7 @@ body {
 
 /*==========Variables==========*/
 :root {
-    --button-color: #22CB5C;
-    --footer-color: #0A0826;
+    --highlight-color: #22CB5C;
     --dark-text: #18191F;
     --gray-text: #3A3A3A;
     --light-text: #787885;
@@ -107,7 +106,7 @@ body {
 
     height: 44px;
     width: 196px;
-    background-color: var(--button-color);
+    background-color: var(--highlight-color);
     border-radius: 41px;
     margin-top: 28px;
     display: flex;
@@ -220,7 +219,7 @@ body {
 .see-more h3 {
     font-weight: 700;
     font-size: 16px;
-    color: var(--button-color);
+    color: var(--highlight-color);
 }
 
 .see-arrow {
@@ -228,13 +227,13 @@ body {
     top: 3px;
     font-weight: 700;
     font-size: 20px;
-    color: var(--button-color);
+    color: var(--highlight-color);
 }
 
 /* =======subscribe section ======== */
 .subscribe {
     text-align: center;
-    background-color: var(--button-color);
+    background-color: var(--highlight-color);
     color: white;
     padding: 50px;
 }
@@ -245,6 +244,10 @@ body {
     font-weight: 400;
     margin-top: 0;
     margin-bottom: 5px;
+}
+
+.subscribe p {
+    font-size: 1.2rem;
 }
 
 button,
@@ -263,7 +266,7 @@ input[type=email] {
 button:hover {
     cursor: pointer;
     background-color: white;
-    color: var(--button-color);
+    color: var(--highlight-color);
 }
 
 input[type=email] {
