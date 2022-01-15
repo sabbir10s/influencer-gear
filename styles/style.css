@@ -67,15 +67,154 @@ body {
 }
 
 .banner-image img {
-    width: 90%;
+    width: 100%;
 }
 
 .banner-title {
     font-weight: 700;
     font-size: 51px;
     color: var(--gray-text);
-    margin-bottom: 16px;
+    margin-bottom: 25px;
     margin-left: 0;
+    position: relative;
+}
+
+.banner-title::before {
+    content: 'Hey Influencer';
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: var(--highlight-color);
+    animation: typing 3s ease-in infinite;
+}
+
+@keyframes typing {
+    0% {
+        content: 'H|';
+    }
+
+    4% {
+        content: 'He|';
+    }
+
+    8% {
+        content: 'Hey|';
+    }
+
+    12% {
+        content: 'Hey|';
+    }
+
+    16% {
+        content: 'Hey |';
+    }
+
+    20% {
+        content: 'Hey I|';
+    }
+
+    24% {
+        content: 'Hey In|';
+    }
+
+    28% {
+        content: 'Hey Inf|';
+    }
+
+    32% {
+        content: 'Hey Infl|';
+    }
+
+    36% {
+        content: 'Hey Influ|';
+    }
+
+    40% {
+        content: 'Hey Influe|';
+    }
+
+    44% {
+        content: 'Hey Influen|';
+    }
+
+    48% {
+        content: 'Hey Influenc|';
+    }
+
+    52% {
+        content: 'Hey Influence|';
+    }
+
+    56% {
+        content: 'Hey Influencer|';
+    }
+
+    60%,
+
+    85% {
+        content: 'Hey Influencer|';
+    }
+
+    86% {
+        content: 'Hey Influence|';
+    }
+
+    87% {
+        content: 'Hey Influenc|';
+    }
+
+    88% {
+        content: 'Hey Influen|';
+    }
+
+    89% {
+        content: 'Hey Influe|';
+    }
+
+    90% {
+        content: 'Hey Influ|';
+    }
+
+    91% {
+        content: 'Hey Infl|';
+    }
+
+    92% {
+        content: 'Hey Inf|';
+    }
+
+    93% {
+        content: 'Hey In|';
+    }
+
+    94% {
+        content: 'Hey I|';
+    }
+
+    95% {
+        content: 'Hey |';
+    }
+
+    96% {
+        content: 'Hey|';
+    }
+
+    97% {
+        content: 'He|';
+    }
+
+    98% {
+        content: 'H|';
+    }
+
+    99% {
+        content: '|';
+    }
+
+    100% {
+        content: '|';
+    }
+
 }
 
 .banner-content {
