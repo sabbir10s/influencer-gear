@@ -78,12 +78,14 @@ body {
     font-size: 51px;
     color: var(--gray-text);
     margin-bottom: 16px;
+    margin-left: 0;
 }
 
 .banner-content {
     font-weight: 500;
     font-size: 16px;
     color: var(--gray-text);
+    margin-left: 0;
 }
 
 .banner-button a {

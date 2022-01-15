@@ -13,10 +13,21 @@
     /* ==============navbar section ========== */
     .nav-bar {
         display: flex;
-        justify-content: space-around;
-        margin: 0;
+        justify-content: left;
+        grid-template-columns: repeat(1, 1fr);
+        grid-column-gap: 40px;
+        padding: 0 5px;
     }
 
+    .nav-title {
+        font-size: 3vw;
+    }
+
+    .nav-element a {
+        font-size: 3.7vw;
+        padding: 10px;
+        margin-right: 0px;
+    }
 
     .nav-item {
         display: none;
@@ -26,7 +37,8 @@
     .banner {
         display: flex;
         flex-direction: column;
-        margin-left: 10px;
+        padding: 0 5px;
+        width: 100%;
     }
 
     .banner-image img {
@@ -43,13 +55,10 @@
     .banner-button {
         width: 140px;
         height: 35px;
-        margin-left: 10px;
-
     }
 
     .banner-title {
-        margin-left: 10px;
-        font-size: 1.5rem;
+        font-size: 8vw;
     }
 
     .banner-content {
@@ -91,7 +100,7 @@
 
     button,
     input[type=email] {
-        font-size: 13px;
+        font-size: 12px;
         font-weight: 700;
         padding: 5px 10px;
         margin: 3px;
