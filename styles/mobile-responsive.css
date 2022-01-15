@@ -10,10 +10,16 @@
         margin-top: 10px;
     }
 
-
+    /* ==============navbar section ========== */
     .nav-bar {
-        display: none;
+        display: flex;
+        justify-content: space-around;
+        margin: 0;
+    }
 
+
+    .nav-item {
+        display: none;
     }
 
     /* ============banner================= */
