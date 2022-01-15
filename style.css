@@ -573,3 +573,93 @@ p {
         border-radius: 60px;
     }
 }
+
+
+/* =================================
+---------tablet responsive----------
+==================================== */
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    /* ==============navbar section ==========*/
+
+    .nav-bar {
+        padding: 0 10px;
+    }
+
+    .nav-title {
+        font-size: 15px;
+    }
+
+    .nav-element a {
+        font-size: 17px;
+        padding: 10px;
+        margin-right: 0px;
+    }
+
+    /* ============banner================= */
+    .banner {
+        display: flex;
+        flex-direction: column;
+        padding: 0 10px;
+    }
+
+    .banner-image img {
+        width: 60%;
+        /* margin: 0 25px; */
+        /* margin-left: 0; */
+    }
+
+    .banner-image {
+        display: flex;
+        justify-content: center;
+    }
+
+    .banner-button {
+        width: 140px;
+        height: 35px;
+    }
+
+    .banner-title {
+        font-size: 50px;
+    }
+
+    .banner-content {
+        font-size: 14px;
+    }
+
+    .products {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    /* ========subscribe section ======= */
+    .subscribe h2 {
+        font-size: 1.8rem;
+    }
+
+    .subscribe p {
+        font-size: 1rem;
+    }
+
+    button,
+    input[type=email] {
+        font-size: 15px;
+        font-weight: 700;
+        padding: 10px 20px;
+        margin: 3px;
+    }
+
+
+    /* ==========footer section ======== */
+
+    .footer h2 {
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    .footer p {
+        font-size: 12px;
+        font-weight: 400;
+    }
+}
