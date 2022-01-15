@@ -320,7 +320,7 @@ p {
         display: flex;
         justify-content: left;
         grid-template-columns: repeat(1, 1fr);
-        grid-column-gap: 30px;
+        grid-column-gap: 35px;
         padding: 0 5px;
     }
 
@@ -329,8 +329,8 @@ p {
     }
 
     .nav-element a {
-        font-size: 12px;
-        padding: 8px;
+        font-size: 15px;
+        padding: 10px;
         margin-right: 0px;
     }
 
